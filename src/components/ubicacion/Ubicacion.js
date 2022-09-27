@@ -1,5 +1,6 @@
 import './Ubicacion.css';
 
+
 function  Ubicacion(){
     return(
 <section id="ubicacion">

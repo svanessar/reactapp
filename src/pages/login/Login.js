@@ -1,5 +1,4 @@
 import Inicio from '../../components/login/Login';
-import './Login.css';
 
 
 

@@ -1,5 +1,6 @@
 import './Login.css';
-import avatar from './avatar.png'
+import avatar from './avatar.png';
+import './fondocaja2.png';
  function Login(){
     return(
         <div  class="contenedor">
@@ -7,7 +8,7 @@ import avatar from './avatar.png'
               <img class="logo" src={avatar} />
               </div>
               <div class="form-login">
-              <img class="avatar" src="img/avatar.png" alt=""/>
+              <img class="avatar" src={avatar} alt=""/>
               <label>Usuario:</label>
               <input class="cajitas" type="text" name="usuario" value="" />
               <label>Contraseña:</label>
