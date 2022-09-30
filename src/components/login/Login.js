@@ -1,11 +1,12 @@
 import './Login.css';
 import avatar from './avatar.png';
 import './fondocaja2.png';
+import logo from './Hotelia horizontal negro.svg';
  function Login(){
     return(
         <div  class="contenedor">
               <div class="cajalogo" >
-              <img class="logo" src={avatar} />
+              <img class="logo" src={logo} />
               </div>
               <div class="form-login">
               <img class="avatar" src={avatar} alt=""/>

@@ -11,12 +11,12 @@ import Footer from '../../components/footer/Footer';
 function Home(){
     return(
         <div>
-    <Header />,
-    <Section />,
-    <Descripcion />,
-    <Features />,
-    <Ubicacion />,
-    <Opinion />,
+    <Header />
+    <Section />
+    <Descripcion />
+    <Features />
+    <Ubicacion />
+    <Opinion />
     <Footer /></div>
     ); 
 }

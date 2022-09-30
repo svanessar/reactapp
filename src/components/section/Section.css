@@ -4,6 +4,7 @@
   margin: 0%;
 }
 #banner {
+  width: 100%;
   background-image: url(slide1.jpg);
   background-size: cover;
   background-position: 50% 50%;
@@ -13,10 +14,10 @@
 }
 .texto{
     background: rgba(0,0,0,0.3);
-    width: 100%;
+    width: 93%;
     height: 12%;
     padding: 3%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    top: 10%;
+    top: 8%;
 }

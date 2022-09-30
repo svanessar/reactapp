@@ -6,24 +6,36 @@ function  Features(){
         <h2 class="features-title">Razones por las que disfrutarás quedarte con nosotros</h2>
         <div class="features-description">
 
-            <div class="feature feature-blue">
-                <i class="fa-solid fa-bell-concierge"></i>
-                <p>Lorem ipsum dolor</p>
+            <div className="feature feature-blue">
+                <cardfuature
+                background={true}
+                texto="Lorem ipsum dolor"
+                icono="fa-solid fa-bell-concierge"/>
+            
             </div>
 
             <div class="feature feature-black">
-                <i class="fa-solid fa-bed"></i>
-                <p>Lorem ipsum dolor</p>
+            <cardfuature
+             background={false}
+                icono="fa-solid fa-bad"
+                texto="Lorem ipsum dolor"
+               />
             </div>
 
             <div class="feature feature-blue">
-                <i class="fa-solid fa-wifi"></i>
-                <p>Lorem ipsum dolor</p>
+            <cardfuature
+             background={true}
+                icono="fa-solid fa-wifi"
+                texto='Lorem ipsum dolor'
+                />
             </div>
 
             <div class="feature feature-black">
-                <i class="fa-solid fa-dumbbell"></i>
-                <p>Lorem ipsum dolor</p>
+            <cardfuature
+             background={false}
+                icono="fa-solid fa-dumbbell"
+                texto='Lorem ipsum dolor'
+               />
             </div>
         </div>
 </section>
